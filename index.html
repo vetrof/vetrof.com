@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>vetrof.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+.video-responsive{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.video-responsive iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+
+
+
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="img/logo.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+<!--    <i class="fa fa-home w3-xxlarge"></i>-->
+    <p>Home</p>
+  </a>
+
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p>About</p>
+  </a>
+
+  <a href="#photo" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p>Photo</p>
+    </a>
+
+      <a href="#video" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p>Video</p>
+        </a>
+
+        <a href="#audio" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p>Audio</p>
+  </a>
+          <a href="#web" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p>Web project</p>
+            </a>
+
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p>Contact</p>
+  </a>
+
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+<!--    <a href="#" class="w3-bar-item w3-button" style="width:14% !important">Home </a>-->
+    <a href="#about" class="w3-bar-item w3-button" style="width:16% !important">About</a>
+    <a href="#photo" class="w3-bar-item w3-button" style="width:16% !important">Photo</a>
+    <a href="#video" class="w3-bar-item w3-button" style="width:16% !important">Video</a>
+    <a href="#audio" class="w3-bar-item w3-button" style="width:16% !important">Audio</a>
+    <a href="#web" class="w3-bar-item w3-button" style="width:16% !important">Web</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:16% !important">Contacts</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+<!--    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Vitaly aka Vetrof.</h1>-->
+<!--    <h1 class="w3-big"><span class="w3-hide-small">Hi, I'm</span> Vitaly, aka Vetrof.</h1>-->
+    <h3 class="w3-big">Hi! I'm Vitaly, but many people know me as - Vetrof</h3>
+    <p>Web developer, photographer and sound designer.</p>
+    <img src="img/00146_1.jpg" alt="boy" class="w3-image" width="500" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Summary</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <p>For a long time I have been creating websites, taking photos and videos
+      to fill websites with content. Professional studio portrait and
+      advertising photography. For more than 10 years he worked as a sound engineer
+      on radio and television. I collaborate with IT companies to create sound for
+      their products, act as a sound designer. Lately I've been doing full stack
+      development in the Python programming language.
+      I cooperate with both pet projects, startups, and large companies.
+      Below on the page I have presented a portfolio of what I shoot as a photographer,
+      videographer, sound engineer, programmer and web developer.
+    </p>
+
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+
+    <p class="w3-wide">Photography</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+
+    <p class="w3-wide">Videography</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+
+    <p class="w3-wide">Sound design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+    </div>
+
+    <p class="w3-wide">Server backend programming</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:30%"></div>
+
+    </div><br>
+
+<!--    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">-->
+<!--      <div class="w3-quarter w3-section">-->
+<!--        <span class="w3-xlarge">20+</span><br>-->
+<!--        Partners-->
+<!--      </div>-->
+<!--      <div class="w3-quarter w3-section">-->
+<!--        <span class="w3-xlarge">100+</span><br>-->
+<!--        Projects Done-->
+<!--      </div>-->
+<!--      <div class="w3-quarter w3-section">-->
+<!--        <span class="w3-xlarge">100+</span><br>-->
+<!--        Happy Clients-->
+<!--      </div>-->
+<!--      <div class="w3-quarter w3-section">-->
+<!--        <span class="w3-xlarge">150+</span><br>-->
+<!--        Meetings-->
+<!--      </div>-->
+<!--    </div>-->
+
+<!--    <button class="w3-button w3-light-grey w3-padding-large w3-section">-->
+<!--      <i class="fa fa-download"></i> My Resume-->
+<!--    </button>-->
+
+    <!-- Grid for pricing tables -->
+<!--    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>-->
+<!--    <div class="w3-row-padding" style="margin:0 -16px">-->
+<!--      <div class="w3-half w3-margin-bottom">-->
+<!--        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">-->
+<!--          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>-->
+<!--          <li class="w3-padding-16">Web Design</li>-->
+<!--          <li class="w3-padding-16">Photography</li>-->
+<!--          <li class="w3-padding-16">5GB Storage</li>-->
+<!--          <li class="w3-padding-16">Mail Support</li>-->
+<!--          <li class="w3-padding-16">-->
+<!--            <h2>$ 10</h2>-->
+<!--            <span class="w3-opacity">per month</span>-->
+<!--          </li>-->
+<!--          <li class="w3-light-grey w3-padding-24">-->
+<!--            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>-->
+<!--          </li>-->
+<!--        </ul>-->
+<!--      </div>-->
+
+<!--      <div class="w3-half">-->
+<!--        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">-->
+<!--          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>-->
+<!--          <li class="w3-padding-16">Web Design</li>-->
+<!--          <li class="w3-padding-16">Photography</li>-->
+<!--          <li class="w3-padding-16">50GB Storage</li>-->
+<!--          <li class="w3-padding-16">Endless Support</li>-->
+<!--          <li class="w3-padding-16">-->
+<!--            <h2>$ 25</h2>-->
+<!--            <span class="w3-opacity">per month</span>-->
+<!--          </li>-->
+<!--          <li class="w3-light-grey w3-padding-24">-->
+<!--            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>-->
+<!--          </li>-->
+<!--        </ul>-->
+<!--      </div>-->
+    <!-- End Grid/Pricing tables -->
+<!--    </div>-->
+
+    <!-- Testimonials -->
+<!--    <h3 class="w3-padding-24 w3-text-light-grey">Clients</h3>-->
+<!--    <img src="img/1676104047723.jpeg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">-->
+<!--    <p><span class="w3-large w3-margin-right">Roman Palagin.</span> B2VISON.</p>-->
+<!--    <p>3D graphics and virtual studio solution.</p><br>-->
+
+<!--    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">-->
+<!--    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>-->
+<!--    <p>No one is better than John Doe.</p>-->
+  <!-- End About Section -->
+<!--  </div>-->
+
+  <!-- Portfolio Section -->
+
+
+
+  <div class="w3-padding-64 w3-content" id="photo">
+    <h2 class="w3-text-light-grey">Photography</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <p>I work in different genres, but I prefer studio photography with flash:
+      dramatic portrait and advertising photography of goods.
+      I am also currently writing a big book about studio photography,
+      working with flashes and photo processing.
+    </p>
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="img/foto_portfolio/portrait/180404_zapal_5348-copy-1024x683.jpeg" style="width:100%">
+        <img src="img/foto_portfolio/portrait/2018-08-23-Nelli-poligon0572_ir_besttoning-668x1024.jpeg" style="width:100%">
+        <img src="img/foto_portfolio/portrait/202002_kristina_tfp_00094-edit-copy.jpeg" style="width:100%">
+        <img src="img/foto_portfolio/predmetka/153-683x1024.jpeg" style="width:100%">
+        <img src="img/foto_portfolio/predmetka/168-683x1024.jpeg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="img/foto_portfolio/portrait/180404_zapal_5357-1-copy-1024x494.jpeg" style="width:100%">
+        <img src="img/foto_portfolio/portrait/191213_alenina_0167_c1_c1-copy.jpeg" style="width:100%">
+        <img src="img/foto_portfolio/portrait/20210211_osteo_studio8_0030-1-copy.jpeg" style="width:100%">
+        <img src="img/foto_portfolio/predmetka/169-683x1024.jpeg" style="width:100%">
+        <img src="img/foto_portfolio/predmetka/Untitled-4.jpg_mini-683x1024.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+<!--VIDEO-->
+
+    <div class="w3-padding-64 w3-content" id="video">
+    <h2 class="w3-text-light-grey">Video production</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <p>I also sometimes shoot videos for my clients.
+      Here are some music videos and a commercial filmed for my clients.
+    </p>
+
+
+
+      <div class="video-responsive">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7Rsq7lQwkuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="video-responsive">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZDWww1Fu6NY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="video-responsive">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dHz4358o0O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  </div>
+      <div class="video-responsive">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5evUAeEs7nQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="video-responsive">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/1k2k1m9S0qI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div>
+    <!-- Grid for photos -->
+
+<!--    <div class="w3-row-padding" style="margin:0 -16px">-->
+<!--          <iframe width="900" height="315"-->
+<!--          src="https://www.youtube.com/embed/tgbNymZ7vqY">-->
+<!--          </iframe>-->
+<!--    </div>-->
+  <!-- End Portfolio Section -->
+  </div>
+
+<!--AUDIO-->
+<div class="w3-padding-64 w3-content" id="audio">
+    <h2 class="w3-text-light-grey">Audio production</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <p>For more than 15 years I worked in a recording studio
+      and did advertising for radio and TV, recording musical
+      groups of different styles.
+    </p>
+
+      <iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1498146490&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/rhyl3uxsejh0" title="Виталик Ветров" target="_blank" style="color: #cccccc; text-decoration: none;">Виталик Ветров</a> · <a href="https://soundcloud.com/rhyl3uxsejh0/diktor-vitaliy-vetrov" title="Ford_mix n voice" target="_blank" style="color: #cccccc; text-decoration: none;">Ford_mix n voice</a></div>
+      <iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1498149589&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/rhyl3uxsejh0" title="Виталик Ветров" target="_blank" style="color: #cccccc; text-decoration: none;">Виталик Ветров</a> · <a href="https://soundcloud.com/rhyl3uxsejh0/reklama-liberti-golos-svedenie" title="Реклама Либерти Голос Сведение" target="_blank" style="color: #cccccc; text-decoration: none;">Реклама Либерти Голос Сведение</a></div>
+      <iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1498158289&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/rhyl3uxsejh0" title="Виталик Ветров" target="_blank" style="color: #cccccc; text-decoration: none;">Виталик Ветров</a> · <a href="https://soundcloud.com/rhyl3uxsejh0/duke-zapis-svedenie" title="Duke Запись Сведение" target="_blank" style="color: #cccccc; text-decoration: none;">Duke Запись Сведение</a></div>
+      <iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1498160641&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/rhyl3uxsejh0" title="Виталик Ветров" target="_blank" style="color: #cccccc; text-decoration: none;">Виталик Ветров</a> · <a href="https://soundcloud.com/rhyl3uxsejh0/muzyka-duke-svedenie" title="Музыка Duke Сведение" target="_blank" style="color: #cccccc; text-decoration: none;">Музыка Duke Сведение</a></div>
+      <iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1498150732&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/rhyl3uxsejh0" title="Виталик Ветров" target="_blank" style="color: #cccccc; text-decoration: none;">Виталик Ветров</a> · <a href="https://soundcloud.com/rhyl3uxsejh0/ty-ponyala" title="Ты поняла" target="_blank" style="color: #cccccc; text-decoration: none;">Ты поняла</a></div>
+</div>
+
+
+
+    <!--WEB-->
+<div class="w3-padding-64 w3-content" id="web">
+    <h2 class="w3-text-light-grey">Web projects</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <p>Lately, I started making web services on the django framework,
+      and before that, I made sites on wordpress for many years.
+    </p>
+  <br>
+          <br>
+
+
+          <h3 class="w3-big">My service to help people whose well-being depends on the weather.</h3>
+          <p>The service helps to understand why exactly you feel unwell, from what kind of
+            weather phenomena. There is a well-being forecast, color indicators and an
+            individual well-being calendar</p>
+           <p><a href="https://feelweather.click/">https://feelweather.click</a></p>
+          <img src="img/foto_portfolio/web/Screen Shot 2023-04-22 at 21.17.24.png" alt="boy" class="w3-image" width="500" height="1108">
+          <img src="img/foto_portfolio/web/Screen Shot 2023-04-22 at 21.18.29.png" alt="boy" class="w3-image" width="500" height="1108">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <h3 class="w3-big">Service of paid access to yoga video lessons. </h3>
+          <p>Made with django framework.</p>
+           <p><a href="https://yogangie.ru/">https://yogangie.ru/</a></p>
+          <img src="img/foto_portfolio/web/Screen Shot 2023-04-22 at 21.18.59.png" alt="boy" class="w3-image" width="500" height="1108">
+          <img src="img/foto_portfolio/web/Screen Shot 2023-04-22 at 21.37.16.png" alt="boy" class="w3-image" width="500" height="1108">
+
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <h3 class="w3-big">Portfolio websites for photographers.</h3>
+          <p> Made on wordpress.</p>
+           <p><a href="https://yogangie.ru/">https://vetrof.ru/</a></p>
+            <img src="img/foto_portfolio/web/Screen Shot 2023-04-22 at 21.16.47.png" alt="boy" class="w3-image" width="500" height="1108">
+          <br>
+          <br>
+            <p><a href="https://yogangie.ru/">https://yogangie.ru/</a></p>
+            <img src="img/foto_portfolio/web/Screen Shot 2023-04-22 at 21.17.10.png" alt="boy" class="w3-image" width="500" height="1108">
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+
+
+<!--      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>-->
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Telegram:  <a href="https://t.me/VitalyLip">@VitalyLip</a></p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: vetrof@gmail.com</p>
+    </div><br>
+<!--    <p>Let's get in touch. Send me a message:</p>-->
+
+<!--    <form action="/action_page.php" target="_blank">-->
+<!--      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>-->
+<!--      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>-->
+<!--      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>-->
+<!--      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>-->
+<!--      <p>-->
+<!--        <button class="w3-button w3-light-grey w3-padding-large" type="submit">-->
+<!--          <i class="fa fa-paper-plane"></i> SEND MESSAGE-->
+<!--        </button>-->
+<!--      </p>-->
+<!--    </form>-->
+  <!-- End Contact Section -->
+  </div>
+
+    <!-- Footer -->
+
+
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xxlarge">
+    <a href="https://www.facebook.com/vetrofff" class="fa fa-facebook-official w3-hover-opacity" ></a>
+    <a href="https://www.instagram.com/vetrof_studio/" class="fa fa-instagram w3-hover-opacity"></a>
+    <a href="https://twitter.com/vetroff" class="fa fa-twitter w3-hover-opacity"></a>
+    <a href="https://www.linkedin.com/in/vitaly-lipkevich/" class="fa fa-linkedin w3-hover-opacity"></a>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
